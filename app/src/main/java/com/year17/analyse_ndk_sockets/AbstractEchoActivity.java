@@ -130,6 +130,6 @@ public abstract class AbstractEchoActivity extends AppCompatActivity implements 
         }
     }
     static {
-        System.loadLibrary("NDK_SOCKETS");
+        System.loadLibrary("Echo");
     }
 }
